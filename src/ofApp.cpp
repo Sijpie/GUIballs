@@ -12,6 +12,8 @@ void ofApp::setup() {
 
 	gui.add(color.set("Colour", ofColor::white, 0, 255));
 
+	//(start waarde, minimum, maximum)
+
 	//sliders
 
 }
@@ -93,7 +95,9 @@ void ofApp::mouseDragged(int x, int y, int button) {
 
 //--------------------------------------------------------------
 void ofApp::mousePressed(int x, int y, int button) {
-
+	if (balllist.size() > 0) {
+	balllist.pop_back();
+	}
 }
 
 //--------------------------------------------------------------

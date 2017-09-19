@@ -36,6 +36,7 @@ public:
 	ofParameter<ofColor> color;
 
 	//sliders
+	//of parameter maakt het streepje in de slider - geeft de positie in slider een waarde
 
 	//bool guivisibility;
 	//true or false
