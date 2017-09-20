@@ -4,7 +4,8 @@
 #include "ofxGui.h"
 #include "Balls.h"
 
-class ofApp : public ofBaseApp
+class ofApp : public ofBaseApp
+
 {
 
 public:
@@ -29,7 +30,8 @@ public:
 	//object/interface waar objecten op komen
 	//bv buttons
 
-
+
+
 	ofParameter<int> radius;
 	ofParameter<float> xspeed;
 	ofParameter<float> yspeed;
